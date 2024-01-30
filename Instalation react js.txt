@@ -1,0 +1,31 @@
+Instalation vite
+1. npm create vite@latest my-react-app -- --template react (ketikkan di terminal)
+2. cd my-react-app (masuk ke folder yg sudah di buat)
+3. npm install
+
+Installation Tailwind
+1. npm install -D tailwindcss postcss autoprefixer
+2. npx tailwindcss init -p
+3. copy "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}", pastekan ke dalam file tailwind.config.js di bagian content
+4. copy @tailwind base;
+@tailwind components;
+@tailwind utilities; patekan ke dalam file index.css (kalo ada code di dalmnya di hapus aja)
+5. file app.css di hapus aja
+6. di file app.jsx di hapus aja (import './App.css')
+7. 
+
+Installation api with axios
+1. npm i axios
+2. buat folder di dalam src dengan nama foldernya "services" dan di dalamnya buat file js dengan nama "product.service.js" di dalam nya 
+
+
+instal jwt decode
+1. npm i jwt-decode
+
+install redux
+1. npm i redux
+
+
+
+
